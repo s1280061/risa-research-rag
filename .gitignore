@@ -1,7 +1,6 @@
-﻿.env
+.env
 *.faiss
 *_meta.json
-*.jsonl
 __pycache__/
 *.pyc
 venv/
