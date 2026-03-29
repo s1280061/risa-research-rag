@@ -1,0 +1,4 @@
+﻿openai>=1.0.0
+faiss-cpu
+numpy
+python-dotenv
