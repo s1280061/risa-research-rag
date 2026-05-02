@@ -30,9 +30,10 @@ except ImportError:
 
 
 # ── 設定 ──────────────────────────────────────────────────────────
-JSONL_PATH   = Path(r"C:\Users\User\Downloads\rag_documents.jsonl")
-INDEX_PATH   = Path(r"C:\Users\User\Downloads\risa_research.faiss")
-META_PATH    = Path(r"C:\Users\User\Downloads\risa_research_meta.json")
+# 変更後
+JSONL_PATH   = Path("/data/rag_documents.jsonl")
+INDEX_PATH   = Path("/data/risa_research.faiss")
+META_PATH    = Path("/data/risa_research_meta.json")
 EMBED_MODEL  = "text-embedding-3-small"
 LLM_MODEL    = "gpt-5-mini"
 TOP_K        = 5
