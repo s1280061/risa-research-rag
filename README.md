@@ -22,6 +22,12 @@
 
 ## セットアップ
 
+### Docker を使う場合（推奨）
+
+```bash
+docker compose run --rm rag
+```
+
 ### 1. 依存パッケージのインストール
 
 ```bash
@@ -47,7 +53,7 @@ OPENAI_API_KEY=sk-ここにAPIキーを入力
 以下のパスにJSONL形式の論文データを配置してください：
 
 ```
-C:\Users\User\Downloads\rag_documents.jsonl
+/data/rag_documents.jsonl
 ```
 
 各行のJSONには以下のフィールドが必要です：
